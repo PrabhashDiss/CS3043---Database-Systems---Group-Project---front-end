@@ -94,11 +94,13 @@
           <label htmlFor="exampleFormControlInput1" className="form- label">Open Date</label>
           <input type="open_date" className="form-control" id="exampleFormControlInput1" value={open_date} onChange={(event) => setOpenDate(event.target.value)} />
         </div>
-        <div className="mb-3">
+        <div className="d-grid gap-2 d-md-block">
           <button type='submit' className="btn btn-success" onClick={add}>
             Submit
           </button>
-          <button type='reset' className="btn btn-danger">Cancel</button>
+          <button type='reset' className="btn btn-danger">
+            Cancel
+          </button>
         </div>
       </div>
     );
